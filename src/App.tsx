@@ -257,7 +257,7 @@ export function App() {
 
       {/* Team members */}
       {/* Team – cinematic, alternating layout (plain section wrapper to avoid visibility bug) */}
-      <section className="section">
+      <section className="section section-team">
         <div className="section-label">Team</div>
         <h2 className="section-title">People behind the AVANCE identity</h2>
         <div className="team-list">

@@ -703,9 +703,41 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .team-row,
-  .team-row--reverse {
+  /* About card stacks on mobile for better readability */
+  .about-card {
+    padding: 1.3rem 1.2rem 1.5rem;
+  }
+
+  .about-grid {
     grid-template-columns: minmax(0, 1fr);
+    gap: 1.1rem;
+  }
+
+  .about-highlights {
+    gap: 0.75rem;
+  }
+
+  /* Team layout optimization on mobile */
+  .section-team {
+    text-align: center;
+  }
+
+  .section-team .section-label {
+    margin-bottom: 0.15rem;
+  }
+
+  .section-team .section-title {
+    font-size: 1.35rem;
+  }
+
+  .section-team .team-list {
+    gap: 2.4rem;
+  }
+
+  .section-team .team-row,
+  .section-team .team-row--reverse {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 1.6rem 1.3rem 1.7rem;
   }
 
   .team-photo-col {
@@ -714,6 +746,15 @@ body {
 
   .team-avatar-ring {
     width: 320px;
+  }
+
+  .team-info-col {
+    align-items: center;
+    text-align: center;
+  }
+
+  .team-name {
+    font-size: 1.15rem;
   }
 
   .team-row--reverse .team-photo-col,
